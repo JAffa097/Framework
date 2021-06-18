@@ -19,6 +19,7 @@ public class DriverClass {
 
 		file = new FileInputStream("src/main/resources/config.properties");
 		//Thread.sleep(1000);
+		
 		System.out.println(file);
 		properties = new Properties();
 		properties.load(file);
